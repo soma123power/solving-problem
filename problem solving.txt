@@ -1,0 +1,282 @@
+#7
+{
+
+    short int  number ;
+    
+
+    cout << "\a";
+    cout << "Please put the number ?\n";
+    cin >> number;
+    short int  Hlef = number / 2;
+    cout << "Half of "; cout << number, cout << " is "; cout << Hlef, cout << endl;
+    return 0;
+}
+#9
+int main()
+{
+
+    short int  number1;
+    short int  number2;
+    short int  number3;
+    
+
+    cout << "\a";
+    cout << "Please put the number1 ?\n";
+    cin >> number1;
+    cout << "Please put the number2 ?\n";
+    cin >> number2;
+    cout << "Please put the number3 ?\n";
+    cin >> number3;
+    short int sum = number1 + number2 + number3;
+    cout << "the result is "; cout << sum ; cout << endl;
+    return 0;
+}
+#10
+int main()
+{
+
+    short int  mark1;
+    short int  mark2;
+    short int  mark3;
+    
+
+    cout << "\a";
+    cout << "Please put the mark1 ?\n";
+    cin >> mark1;
+    cout << "Please put the mark2 ?\n";
+    cin >> mark2;
+    cout << "Please put the mark3 ?\n";
+    cin >> mark3;
+    short int average = (mark1 + mark2 + mark3) / 3;
+    cout << "the average is "; cout << average ; cout << endl;
+    return 0;
+}
+#14
+no result 
+
+
+
+#15
+int main()
+{
+
+    short int  A;
+    short int  B;
+   
+
+
+    
+
+    cout << "\a";
+    cout << "Please put A ?\n";
+    cin >> A;
+ 
+    cout << "Please put B ?\n";
+    cin >> B;
+    short int Area = A * B;
+
+    cout << " Area "; cout << Area;
+ 
+
+
+   
+    return 0;
+}
+#17 
+int main()
+{
+
+    short int  a;
+    short int  h;
+   
+
+
+    
+
+    cout << "\a";
+    cout << "Please put a ?\n";
+    cin >> a;
+ 
+    cout << "Please put h ?\n";
+    cin >> h;
+    short int Area = a / 2 * h;
+
+    cout << " Area "; cout << Area;
+ 
+
+
+   
+    return 0;
+}
+#19 
+int main()
+{
+
+    short int  d;
+    const float PI = 3.14;
+   
+
+
+    
+
+    cout << "\a";
+    cout << "Please put d ?\n";
+    cin >> d;
+ 
+    
+    float Area = (PI * (d * d ) ) / 4;
+
+    cout << " Area "; cout << Area;
+ 
+
+
+   
+    return 0;
+}
+#20 
+int main()
+{
+
+    short int  a;
+    const float PI = 3.14;
+
+    cout << "\a";
+    cout << "Please put a ?\n";
+    cin >> a;
+ 
+    
+    float Area = (PI * (a * a)) / 4 ;
+
+    cout << " Area "; cout << Area;
+ 
+
+    return 0;
+}
+#22 
+int main()
+{
+    short int  a;
+    short int  b;
+    const float PI = 3.14;
+
+    cout << "\a";
+    cout << "Please put a ?\n";
+    cin >> a;
+    cout << "Please put b ?\n";
+    cin >> b;
+    
+    
+    float Area = (PI * ( b * b )) / 4 *  ( 2 * a - b ) / ( 2 * a + b );
+
+    cout << "Area"; cout << Area;
+ 
+
+    return 0;
+}
+#31
+int main()
+{
+    short int  num;
+    cout << " put the number please ?\n";
+    cin >> num;
+    short int numP2 = num * num;
+    short int numP3 = num * num * num;
+    short int numP4 = num * num * num * num ;
+    cout << " powerOF2 "; cout << numP2, cout << endl;
+    cout << " powerOF3 "; cout << numP3, cout << endl;
+    cout << " powerOF2 "; cout << numP4, cout << endl;
+    return 0;
+}
+#35
+int main()
+{
+    short int penny ;
+    short int nickel ;
+    short int dime ;
+    short int quarter ;
+    short int dollar ;
+    cout << "put how penny do you have ?\n";
+    cin >> penny;
+    cout << "put how nickel do you have ?\n";
+    cin >> nickel;
+    cout << "put how dime do you have ?\n";
+    cin >> dime;
+    cout << "put how quarter do you have ?\n";
+    cin >> quarter;
+    cout << "put how dollar do you have ?\n";
+    cin >> dollar;
+    unsigned int totalPenny = penny + nickel * 5 + dime * 10 + quarter * 25  + dollar * 100 ;
+    float totalDollar = totalPenny / 100;
+    cout << "total of penny is ";  cout << totalPenny ,cout << endl;
+    cout << "total of dollars is ";  cout << totalDollar;
+    return 0;
+}
+#39
+int main()
+{
+    float TotalBill;
+    float CashPaid;
+    cout << "please put CashPaid ?\n";
+    cin >> CashPaid;
+    cout << "please put the TotalBill ?\n";
+    cin >> TotalBill;
+    float Remainder = CashPaid - TotalBill;
+    cout << "the remainde is "; cout << Remainder;
+    
+    return 0;
+}
+#40
+int main()
+{
+    float BillValue ;
+    cout << "please put BillValue Please ?\n";
+    cin >> BillValue;
+    float TotalBill = BillValue * 1.1;
+    float Total = TotalBill * 1.16;
+    cout << "the total is ", cout << Total;
+
+    
+   
+  
+    
+    return 0;
+}
+#42
+int main()
+{
+    unsigned short int days;
+    unsigned short int hours;
+    unsigned short int minutes;
+    unsigned short int seconds;
+    cout << "Please put how many days ?\n";
+    cin >> days;
+    cout << "Please put how many hours ?\n";
+    cin >> hours;
+    cout << "Please put how many minutes ?\n";
+    cin >> minutes;
+    cout << "Please put how many minutes ?\n";
+    cin >> seconds;
+    unsigned int  TotalSconds = days * 24 * 60 * 60  + hours * 60 * 60 + minutes * 60 + seconds;
+    cout << "Total of seconds is ", cout << TotalSconds;
+    return 0;
+}
+#43
+int main()
+{
+    unsigned int TotalOfseconds;
+    unsigned int SecondsPerDay = 24 * 60 * 60 ;
+    unsigned int SecondsPerHour = 60 * 60;
+    unsigned int SecondsPerMinute =  60;
+    cout << "put your TOTAL seconds \n";
+    cin >> TotalOfseconds; 
+    unsigned short int  days = floor(TotalOfseconds / SecondsPerDay);
+    unsigned short int  Remainder = TotalOfseconds % SecondsPerDay;
+    unsigned short int  hours = floor(Remainder / SecondsPerHour);
+    unsigned short int  Remainder = hours % SecondsPerHour;
+    unsigned short int  minutes = floor(Remainder / SecondsPerMinute);
+    unsigned short int  seconds = minutes % SecondsPerMinute;
+
+    cout << days; cout << ":"; cout << hours; cout << ";"; 
+    cout << minutes; cout << ":"; cout << seconds; cout << ".";
+    return 0;
+}
